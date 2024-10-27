@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Flex Box direction</title>
+    <style>
+        * {margin: 0;padding: 0;}
+        .box{ height: 80px;width: 80px;border: 5px solid ;margin: 5px;}
+        #heading {margin-left: 50px;}
+
+        #container {height: 600px;width: 600px;margin: 20px;padding: 15px;border: 5px solid;background-color: darkgrey; display: flex;flex-direction: column;justify-content: flex-end;}
+        /*justify content mai:flex-start,flex-end,center,space-around,space-evenly,space-between sab use kr skty hyn */
+
+        #box1{background-color: yellow;}
+        #box2 {background-color: red;}
+        #box3 {background-color: blue;}
+        #box4 {background-color: green;}
+    </style>
+
+
+  </head>
+  <body>
+    <h1 id="heading">Flex Container</h1>
+    <div id="container">
+        <div id="box1" class="box"> Flex Item 1</div>
+        <div id="box2" class="box"> Flex Item 2</div>
+        <div id="box3" class="box"> Flex Item 3</div>
+        <div id="box4" class="box"> Flex Item 4</div>
+    </div>
+    <!--Flex mai direction row ya column hogi bcz it is 1 dimentional aur agr sth reverse lga den to uska reciprocal hoga -->
+  </body>
+</html>

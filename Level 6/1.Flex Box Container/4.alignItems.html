@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Align Items</title>
+    <style>
+        * {margin: 0;padding: 0;}
+        .box{ height: 150px;width: 150px;border: 5px solid ;margin: 5px;}
+        #heading {margin-left: 50px;}
+
+        #container {height: 600px;width: 600px;margin: 20px;padding: 15px;border: 5px solid;background-color: rgb(35, 157, 71); display: flex;flex-direction: row;justify-content:center ;flex-wrap: wrap;align-items: center;}
+        /*Align items mai  sab elements along the cross axis move krty hyn ie, end kry gy to sb items end py phnch jaye gye aur start krny sy start mai  etc*/
+
+        #box1{background-color: yellow;}
+        #box2 {background-color: red;}
+        #box3 {background-color: blue;}
+        #box4 {background-color: rgb(227, 11, 126);}
+    </style>
+
+
+  </head>
+  <body>
+    <h1 id="heading">Flex Container</h1>
+    <div id="container">
+        <div id="box1" class="box"> Flex Item 1</div>
+        <div id="box2" class="box"> Flex Item 2</div>
+        <div id="box3" class="box"> Flex Item 3</div>
+        <div id="box4" class="box"> Flex Item 4</div>
+    </div>
+  </body>
+</html>

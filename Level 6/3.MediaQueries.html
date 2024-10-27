@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Media Queries</title>
+<style>
+    .box { height:100px ;width: 100px;padding: 5px;margin: 5px;
+        background-color: cornflowerblue;}
+</style>
+<style>
+    @media screen and (width:300px) { #box1 { background-color: rgb(99, 8, 8);}
+    }
+   
+</style>
+<style>
+     @media screen and (min-width:300px) {#box2 { background-color: yellow;}
+        
+    }
+    /*media queries k use sy hum condition laga skty hyn ie, @media sceeen and (if yani agr kia ho to condition apply ho ie, width:200px){jis id ya class py lagani ho condition us mai condition laga do}*/
+</style>
+  </head>
+  <body>
+    <div class="box" id="box1">Box1</div>
+    <div class="box" id="box2">Box2
+    </div>
+  </body>
+</html>
